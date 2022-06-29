@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  /* max-width: 1200px;
+  margin: auto;
+  width: 90%; */
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+
+
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-item{
+    border-style: none;
+    list-style: none;
+
+}
+.header{
+    background-image: url(./background\ img.jpg);
+    min-height: 60vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-heading{
+    padding: .7rem 1rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+button :hover{
+    cursor: pointer;
+}
+
+.section-one{
+    margin-top: 5rem;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+.todo-form {
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.form-todo input {
+    min-height: 100%;
+}
+.todo-form input[type="text"] {
+    width: 78%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.todo-form input[type="submit"] {
+    width: 20%;
+    background: rgb(44, 55, 63);
+    color: white;
+    font-weight: bold;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.todo-list {
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+.todo-list li {
+    padding: 0.7rem;
+    background: #444;
+    color: white;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section-two {
+    margin: 5rem auto;
+    text-align: center;
+    background: rgb(240, 240, 240);
+    border-radius: 10px;
+    padding: 1rem;
+}
+  
+.signup-form {
+    max-width: 800px;
+    width: 95%;
+    text-align: left;
+    margin: auto;
+} 
+.signup-form label {
+    display: block;
+}
+  
+.signup-form input {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+input[type="checkbox"]
+{
+    vertical-align:left;
+    
+    width: 10%;
+}
+
+
+.show{
+    text-align: left;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+
+.checkBox{
+    width: 20%;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+.signup-form textarea {
+    width: 100%;
+}
+.submit-btn {
+    background: rgb(44, 55, 63);
+    color: white;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+  
